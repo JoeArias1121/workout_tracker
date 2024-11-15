@@ -1,8 +1,13 @@
+import TextField from "@mui/material/TextField";
 
 export default function TextInput() {
   return (
     <div>
-      <input type="text" placeholder="Enter new exercise"/>
+      <TextField
+        required
+        id="outlined-required"
+        label="Enter an exercise"
+      />
     </div>
-  )
+  );
 }
